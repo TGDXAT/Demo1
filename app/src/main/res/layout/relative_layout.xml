@@ -48,7 +48,7 @@
 
                 <TextView
                     android:id="@+id/penyouquan_text"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="match_parent"
                     android:layout_marginLeft="10dp"
                     android:layout_toRightOf="@+id/penyouquan_image"
@@ -62,7 +62,7 @@
                     android:layout_width="10dp"
                     android:layout_height="15dp"
                     android:layout_centerVertical="true"
-                    android:layout_marginLeft="230dp"
+                    android:layout_marginLeft="190dp"
                     android:layout_toRightOf="@+id/penyouquan_text"
                     android:src="@mipmap/right" />
             </RelativeLayout>
@@ -86,7 +86,7 @@
 
                 <TextView
                     android:id="@+id/saoyisao_text"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="match_parent"
                     android:layout_marginLeft="10dp"
                     android:layout_toRightOf="@+id/saoyisao_image"
@@ -100,7 +100,7 @@
                     android:layout_width="10dp"
                     android:layout_height="15dp"
                     android:layout_centerVertical="true"
-                    android:layout_marginLeft="230dp"
+                    android:layout_marginLeft="190dp"
                     android:layout_toRightOf="@+id/saoyisao_text"
                     android:src="@mipmap/right" />
             </RelativeLayout>
@@ -124,7 +124,7 @@
 
                 <TextView
                     android:id="@+id/yaoyiyao_text"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="match_parent"
                     android:layout_marginLeft="10dp"
                     android:layout_toRightOf="@+id/yaoyiyao_image"
@@ -138,7 +138,7 @@
                     android:layout_width="10dp"
                     android:layout_height="15dp"
                     android:layout_centerVertical="true"
-                    android:layout_marginLeft="230dp"
+                    android:layout_marginLeft="190dp"
                     android:layout_toRightOf="@+id/yaoyiyao_text"
                     android:src="@mipmap/right" />
             </RelativeLayout>
@@ -162,7 +162,7 @@
 
                 <TextView
                     android:id="@+id/kanyikan_text"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="match_parent"
                     android:layout_marginLeft="10dp"
                     android:layout_toRightOf="@+id/kanyikan_image"
@@ -176,7 +176,7 @@
                     android:layout_width="10dp"
                     android:layout_height="15dp"
                     android:layout_centerVertical="true"
-                    android:layout_marginLeft="230dp"
+                    android:layout_marginLeft="190dp"
                     android:layout_toRightOf="@+id/kanyikan_text"
                     android:src="@mipmap/right" />
             </RelativeLayout>
@@ -200,7 +200,7 @@
 
                 <TextView
                     android:id="@+id/souyisou_text"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="match_parent"
                     android:layout_marginLeft="10dp"
                     android:layout_toRightOf="@+id/souyisou_image"
@@ -214,7 +214,7 @@
                     android:layout_width="10dp"
                     android:layout_height="15dp"
                     android:layout_centerVertical="true"
-                    android:layout_marginLeft="230dp"
+                    android:layout_marginLeft="190dp"
                     android:layout_toRightOf="@+id/souyisou_text"
                     android:src="@mipmap/right" />
             </RelativeLayout>
