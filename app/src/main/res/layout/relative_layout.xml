@@ -62,8 +62,8 @@
                     android:layout_width="10dp"
                     android:layout_height="15dp"
                     android:layout_centerVertical="true"
-                    android:layout_marginLeft="190dp"
-                    android:layout_toRightOf="@+id/penyouquan_text"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="40dp"
                     android:src="@mipmap/right" />
             </RelativeLayout>
 
@@ -100,8 +100,8 @@
                     android:layout_width="10dp"
                     android:layout_height="15dp"
                     android:layout_centerVertical="true"
-                    android:layout_marginLeft="190dp"
-                    android:layout_toRightOf="@+id/saoyisao_text"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="40dp"
                     android:src="@mipmap/right" />
             </RelativeLayout>
 
@@ -138,8 +138,8 @@
                     android:layout_width="10dp"
                     android:layout_height="15dp"
                     android:layout_centerVertical="true"
-                    android:layout_marginLeft="190dp"
-                    android:layout_toRightOf="@+id/yaoyiyao_text"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="40dp"
                     android:src="@mipmap/right" />
             </RelativeLayout>
 
@@ -176,8 +176,8 @@
                     android:layout_width="10dp"
                     android:layout_height="15dp"
                     android:layout_centerVertical="true"
-                    android:layout_marginLeft="190dp"
-                    android:layout_toRightOf="@+id/kanyikan_text"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="40dp"
                     android:src="@mipmap/right" />
             </RelativeLayout>
 
@@ -214,8 +214,8 @@
                     android:layout_width="10dp"
                     android:layout_height="15dp"
                     android:layout_centerVertical="true"
-                    android:layout_marginLeft="190dp"
-                    android:layout_toRightOf="@+id/souyisou_text"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="40dp"
                     android:src="@mipmap/right" />
             </RelativeLayout>
 
