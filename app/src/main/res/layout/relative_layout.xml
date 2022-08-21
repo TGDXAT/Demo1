@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#989898">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!--顶栏-->
+            <RelativeLayout
+                android:id="@+id/topBar"
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#2C2C2C"
+                    android:gravity="center"
+                    android:text="发现"
+                    android:textColor="@color/white" />
+            </RelativeLayout>
+
+            <!--朋友圈-->
+            <RelativeLayout
+                android:id="@+id/penyouquan"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_below="@+id/topBar"
+                android:layout_marginTop="5dp"
+                android:background="#ffffff">
+
+                <ImageView
+                    android:id="@+id/penyouquan_image"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:src="@mipmap/icon_pengyou" />
+
+                <TextView
+                    android:id="@+id/penyouquan_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/penyouquan_image"
+                    android:gravity="center_vertical"
+                    android:text="朋友圈"
+                    android:textColor="#333"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="15dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="230dp"
+                    android:layout_toRightOf="@+id/penyouquan_text"
+                    android:src="@mipmap/right" />
+            </RelativeLayout>
+
+            <!--扫一扫-->
+            <RelativeLayout
+                android:id="@+id/saoyisao"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_below="@+id/penyouquan"
+                android:layout_marginTop="15dp"
+                android:background="#ffffff">
+
+                <ImageView
+                    android:id="@+id/saoyisao_image"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:src="@mipmap/saoyisao" />
+
+                <TextView
+                    android:id="@+id/saoyisao_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/saoyisao_image"
+                    android:gravity="center_vertical"
+                    android:text="扫一扫"
+                    android:textColor="#333"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="15dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="230dp"
+                    android:layout_toRightOf="@+id/saoyisao_text"
+                    android:src="@mipmap/right" />
+            </RelativeLayout>
+
+            <!--摇一摇-->
+            <RelativeLayout
+                android:id="@+id/yaoyiyao"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_below="@+id/saoyisao"
+                android:layout_marginTop="3dp"
+                android:background="#ffffff">
+
+                <ImageView
+                    android:id="@+id/yaoyiyao_image"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:src="@mipmap/yaoyiyao" />
+
+                <TextView
+                    android:id="@+id/yaoyiyao_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/yaoyiyao_image"
+                    android:gravity="center_vertical"
+                    android:text="摇一摇"
+                    android:textColor="#333"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="15dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="230dp"
+                    android:layout_toRightOf="@+id/yaoyiyao_text"
+                    android:src="@mipmap/right" />
+            </RelativeLayout>
+
+            <!--看一看-->
+            <RelativeLayout
+                android:id="@+id/kanyikan"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_below="@+id/yaoyiyao"
+                android:layout_marginTop="15dp"
+                android:background="#ffffff">
+
+                <ImageView
+                    android:id="@+id/kanyikan_image"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:src="@mipmap/kanyikan" />
+
+                <TextView
+                    android:id="@+id/kanyikan_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/kanyikan_image"
+                    android:gravity="center_vertical"
+                    android:text="看一看"
+                    android:textColor="#333"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="15dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="230dp"
+                    android:layout_toRightOf="@+id/kanyikan_text"
+                    android:src="@mipmap/right" />
+            </RelativeLayout>
+
+            <!--搜一搜-->
+            <RelativeLayout
+                android:id="@+id/souyisou"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_below="@+id/kanyikan"
+                android:layout_marginTop="3dp"
+                android:background="#ffffff">
+
+                <ImageView
+                    android:id="@+id/souyisou_image"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:src="@mipmap/souyisou" />
+
+                <TextView
+                    android:id="@+id/souyisou_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/souyisou_image"
+                    android:gravity="center_vertical"
+                    android:text="搜一搜"
+                    android:textColor="#333"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="15dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="230dp"
+                    android:layout_toRightOf="@+id/souyisou_text"
+                    android:src="@mipmap/right" />
+            </RelativeLayout>
+
+            <!--购物-->
+            <!--剩下的都一样的，懒得写了-->
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>
